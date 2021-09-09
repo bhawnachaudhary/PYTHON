@@ -1,0 +1,3 @@
+msg = 'My covid report is negative'
+msg = msg.replace('a','*').replace('e','*').replace('i','*').replace('o','*').replace('u','*')
+print(msg)
