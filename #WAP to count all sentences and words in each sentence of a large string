@@ -1,0 +1,8 @@
+msg = "My name is Richa.I'm graduated from Galgotias University.Currently i live in Lucknow"
+a = msg.split('.') #splits the sentences after '.'
+b = len(a) #counts the no. of sentences
+print(f'No of sentences are>> {b}')
+for i in a:
+  c = i.split() #splits the sentences after ' '
+  d = len(c) #counts the no. of words
+  print(f'Words present in sentence>> "{i}" are {d}')
